@@ -1,0 +1,43 @@
+export const lightColors = {
+  accent: "#ea7d29",
+  black: "#000000",
+  corporateDark: "#1b202e",
+  corporateLight: "#a4b0be",
+  corporateMedium: "#303952",
+  defaultBg: "#f8f9fa",
+  error: "#e74c3c",
+  info: "#3498db",
+  paperBg: "#ffffff",
+  primary: "#1b202e",
+  primaryAlt: "#ecf0f1",
+  secondary: "#303952",
+  success: "#27ae60",
+  textPrimary: "#2c3e50",
+  textSecondary: "#7f8c8d",
+  trueWhite: "#ffffff",
+  warning: "#f39c12",
+  white: "#ffffff",
+};
+
+export const darkColors = {
+  accent: "#ea7d29",
+  black: "#000000",
+  corporateDark: "#0f141d",
+  corporateLight: "#303952",
+  corporateMedium: "#1b202e",
+  defaultBg: "#0f172a",
+  error: "#e74c3c",
+  info: "#3498db",
+  paperBg: "#1e293b",
+  primary: "#3b82f6",
+  primaryAlt: "#303952",
+  secondary: "#334155",
+  success: "#27ae60",
+  textPrimary: "#ffffff",
+  textSecondary: "#94a3b8",
+  trueWhite: "#ffffff",
+  warning: "#f39c12",
+  white: "#1e293b",
+};
+
+export const themeColors = darkColors;

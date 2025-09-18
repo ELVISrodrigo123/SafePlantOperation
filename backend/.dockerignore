@@ -1,0 +1,17 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env
+db.sqlite3
+mediafiles/
+staticfiles/
+*.log
+logs/
+Dockerfile
+.dockerignore
+.git/
+.gitignore
