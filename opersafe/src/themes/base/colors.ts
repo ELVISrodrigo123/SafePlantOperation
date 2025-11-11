@@ -6,11 +6,16 @@ const createColors = (mode: "light" | "dark"): CustomColors => {
   const colors = mode === "light" ? lightColors : darkColors;
 
   return {
+    black: colors.black,
+    white: colors.white,
+    graphPrimary: colors.Graphprimary,
+    graphSecond: colors.GraphSecond,
+
     gradients: {
       blue1: "linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)",
       blue2: "linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%)",
       blue3: "linear-gradient(127.55deg, #141E30 3.73%, #243B55 92.26%)",
-      blue4: "linear-gradient(-20deg, #2b5876 0%, #4e4376 100%)",
+      blue4: "linear-gradient(to right, #6FB1FC, #4364F7, #0052D4)",
       blue5: "linear-gradient(135deg, #97ABFF 10%, #123597 100%)",
       orange1: "linear-gradient(135deg, #fcbf31ff 0%, #F55555 100%)",
       orange2: "linear-gradient(135deg, #FFD3A5 0%, #FD6585 100%)",

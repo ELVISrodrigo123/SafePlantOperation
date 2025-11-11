@@ -18,7 +18,6 @@ export default function HeaderNavbar() {
                     {
                         label: "Ver Servicios",
                         variant: "contained",
-                        onClick: () => console.log('Servicios')
                     },
                     {
                         label: "Contactar",

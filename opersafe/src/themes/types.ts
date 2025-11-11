@@ -1,5 +1,8 @@
-
 export interface CustomColors {
+  graphPrimary: string;
+  graphSecond: string;
+  white: string;
+  black: string;
   gradients: {
     blue1: string;
     blue2: string;
@@ -30,7 +33,7 @@ export interface CustomColors {
     info: string;
     card: string;
     cardSm: string;
-    cardLg: string; 
+    cardLg: string;
   };
   alpha: {
     white: {
@@ -134,6 +137,6 @@ export interface CustomThemeOptions {
 }
 
 export interface ThemeContextType {
-  mode: 'light' | 'dark';
+  mode: "light" | "dark";
   toggleTheme: () => void;
 }

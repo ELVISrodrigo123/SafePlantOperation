@@ -27,6 +27,7 @@ export default function NavbarHeader({ topRef }: NavbarHeaderProps) {
 
     return (
         <AppBar
+        sx={{backgroundColor: "transparent"}}
             position="static"
         >
             <Container maxWidth="xl">

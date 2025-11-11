@@ -24,7 +24,7 @@ export const VideoBackground = ({
                 minHeight,
                 overflow: 'hidden',
                 alignItems: 'center',
-                justifyContent: 'center', 
+                justifyContent: 'center',
                 ...containerSx
             }}
         >
@@ -67,14 +67,14 @@ export const VideoBackground = ({
                         zIndex: 2,
                         height: 'auto',
                         display: 'flex',
-                        alignItems: 'center', 
+                        alignItems: 'center',
                         justifyContent: 'center',
                         minHeight: "100%",
                         py: 18,
                         ...contentSx
                     }}
                 >
-                    <Box sx={{ textAlign: 'center',color: "white"}}>
+                    <Box sx={{ textAlign: 'center', color: "white" }}>
                         {title && (
                             <Typography
                                 variant="h2"
@@ -111,7 +111,7 @@ export const VideoBackground = ({
                                 direction={{ xs: 'column', sm: 'row' }}
                                 spacing={2}
                                 justifyContent="center"
-                                sx={{ mt: 4 }}
+                                sx={{ mt: 4, mx: 5 }}
                             >
                                 {buttons.map((button, index) => (
                                     <Button
@@ -120,10 +120,6 @@ export const VideoBackground = ({
                                         size="large"
                                         onClick={button.onClick}
                                         sx={{
-                                            px: 4,
-                                            py: 1.5,
-                                            fontSize: '1.1rem',
-                                            fontWeight: 'bold',
                                             ...button.sx
                                         }}
                                     >

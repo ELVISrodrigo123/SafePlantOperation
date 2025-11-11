@@ -3,7 +3,7 @@ import { Menu, MenuItem, Box, Button, IconButton, Collapse } from "@mui/material
 import MenuIcon from "@mui/icons-material/Menu";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
-import ThemeToggle  from '@/src/components/ThemeToggle';
+import ThemeToggle from '@/src/components/ThemeToggle';
 import { MobileNavProps } from '../types/IProps';
 import { useState } from 'react';
 
@@ -19,12 +19,11 @@ export const MobileNav = ({
     const [servicesOpen, setServicesOpen] = useState(false);
 
     return (
-        <Box sx={{display: { xs: "flex", md: "none" } }}>
+        <Box sx={{ display: { xs: "flex", md: "none" } }}>
             <IconButton
                 size="large"
                 aria-label="open menu"
                 onClick={onServicesClick}
-                color="inherit"
             >
                 <MenuIcon />
             </IconButton>
@@ -43,7 +42,7 @@ export const MobileNav = ({
                     if (item.type === "scroll") {
                         return (
                             <MenuItem
-                                sx={{fontSize:16}}
+                                sx={{ fontSize: 16 }}
                                 key={item.label}
                                 onClick={() => {
                                     onScrollToTop();
@@ -81,7 +80,6 @@ export const MobileNav = ({
                                                 }}
                                                 sx={{
                                                     fontSize: 13,
-                                                    color: 'text.secondary'
                                                 }}
                                             >
                                                 {service}
@@ -95,7 +93,7 @@ export const MobileNav = ({
 
                     return (
                         <MenuItem
-                            sx={{fontSize: 16}}
+                            sx={{ fontSize: 16 }}
                             key={item.label}
                             onClick={onClose}
                             component={Link}

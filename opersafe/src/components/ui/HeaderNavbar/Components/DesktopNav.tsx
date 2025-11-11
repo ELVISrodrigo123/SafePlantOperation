@@ -12,7 +12,7 @@ export const DesktopNav = ({items, onScrollToTop, onServicesClick}: DesktopNavPr
                         <Button 
                             key={item.label} 
                             onClick={onScrollToTop} 
-                            sx={{ my: 2, mx: 1, color: "white" }}
+                            sx={{ my: 2, mx: 1}}
                         >
                             {item.label}
                         </Button>
@@ -24,7 +24,7 @@ export const DesktopNav = ({items, onScrollToTop, onServicesClick}: DesktopNavPr
                         <Button
                             key={item.label}
                             onClick={onServicesClick}
-                            sx={{ my: 2, mx: 1, color: "white" }}
+                            sx={{ my: 2, mx: 1}}
                         >
                             {item.label}
                         </Button>
@@ -36,7 +36,7 @@ export const DesktopNav = ({items, onScrollToTop, onServicesClick}: DesktopNavPr
                         key={item.label} 
                         component={Link} 
                         href={item.href!} 
-                        sx={{ my: 2, mx: 1, color: "white" }}
+                        sx={{ my: 2, mx: 1}}
                     >
                         {item.label}
                     </Button>
